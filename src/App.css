@@ -1,65 +1,78 @@
-body{
+body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container{
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1400px;
   flex-direction: column;
- 
+
 }
 
 
-.chec{
+.chec {
   width: 300px;
   text-align: center;
-  
+
 }
-.logo{
+
+.logo {
   display: flex;
   gap: 20px;
 }
-.phone{
+
+.phone {
   display: flex;
   gap: 20px;
   padding-right: 50px;
   position: relative;
-  h5{
+
+  h5 {
     position: absolute;
     padding-left: 235px;
-   
+
   }
-  p{
+
+  p {
     padding-right: 50px;
   }
 }
-.head{
+
+.head {
   position: relative;
 }
-.con{
+
+.con {
   width: 1200px;
 }
-.loading{
-  
+
+.loading {
+
   width: 1300px;
   height: 60px;
   margin-top: 150px;
   animation: rotate 2s linear infinite;
 }
+
 @keyframes rotate {
   from {
-    transform: rotate(0deg); /* Начальный угол вращения */
+    transform: rotate(0deg);
+    /* Начальный угол вращения */
   }
+
   to {
-    transform: rotate(360deg); /* Конечный угол вращения */
+    transform: rotate(360deg);
+    /* Конечный угол вращения */
   }
 }
-.footer{
+
+.footer {
   display: flex;
   align-items: center;
   background: #F1EADC;
@@ -67,7 +80,8 @@ body{
   width: 1400px;
 
 }
-.womaz{
+
+.womaz {
   display: flex;
   margin-top: 50px;
   align-items: start;
@@ -75,125 +89,150 @@ body{
   width: 1255px;
   height: 300px;
 }
-.imks{
+
+.imks {
   display: flex;
   font-size: 16px;
   align-items: center;
   padding-bottom: 30px;
   gap: 10px;
 }
-.sred{
+
+.sred {
   display: flex;
   gap: 50px;
 }
-.sred p:hover{
-color: #6E9C9F;
+
+.sred p:hover {
+  color: #6E9C9F;
 }
-.ptags{
+
+.ptags {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  p:hover{
-      color: #6E9C9F;
+
+  p:hover {
+    color: #6E9C9F;
   }
 }
-.numb{
+
+.numb {
   text-align: end;
-  .icon{
-      padding-left: 75px;
-      display: flex;
-      align-items: center;
-      gap:10px;
+
+  .icon {
+    padding-left: 75px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 }
-.links{
+
+.links {
   color: black;
 
-text-decoration: none;}
-ul p:hover{
-color:#6E9C9F;
+  text-decoration: none;
 }
-.col{
-  text-decoration:none;
-  color: black;
-}
-.cards{
-  display: flex;
-  justify-content: space-between;
-margin-top: 50px;
-margin-bottom: 50px;  
-gap: 50px;
-  text-align: center;
- flex-wrap: wrap;
- 
-}
-p.active{
+
+ul p:hover {
   color: #6E9C9F;
 }
-.elements{
+
+.col {
+  text-decoration: none;
+  color: black;
+}
+
+.cards {
   display: flex;
   justify-content: space-between;
-  button{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 50px;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+p.active {
+  color: #6E9C9F;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-between;
+
+  button {
     cursor: pointer;
     padding: 15px 25px;
-background-color: transparent;
+    background-color: transparent;
     border: 1px solid;
   }
+
   /* button:hover{
     background-color: black;
     color: white;
   } */
-  button.active{
+  button.active {
     background-color: black;
     color: white;
   }
 }
-.pt{
+
+.pt {
   background-color: black;
 }
-.aboutcard1 p{
-  
+
+.aboutcard1 p {
+
   width: 500px;
 }
-.aboutcard1{
+
+.aboutcard1 {
   display: flex;
   gap: 100px;
   align-items: center;
 }
 
-.clazz{
+.clazz {
   background-color: black;
 }
-.words{
+
+.words {
   display: flex;
   flex-direction: column;
 }
-.aboutcard{
+
+.aboutcard {
   margin-top: 50px;
   margin-bottom: 50px;
   flex-direction: column;
   display: flex;
-align-items: center;
-button{
-  margin-top: 50px;
-  padding: 15px 20px;
-  background: #6E9C9F;
-border: none;
-color: white;
+  align-items: center;
+
+  button {
+    margin-top: 50px;
+    padding: 15px 20px;
+    background: #6E9C9F;
+    border: none;
+    color: white;
+  }
 }
-}
-.carta{
+
+.carta {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 1050px;
 }
-.text{
+
+.text {
   max-width: 250px;
   max-height: 200px;
-  
+
 }
-.ptad{
+
+.ptad {
   padding: 10px 20px;
   color: white;
   font-weight: 400;
@@ -201,4 +240,28 @@ color: white;
   width: 400px;
   border-radius: 10px;
   background-color: greenyellow;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.active {
+  background: black;
+  color: white;
+}
+
+.qwer {
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+.btnsq {
+  background-color: #6E9C9F;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  font-size: 18px;
+  height: 40px;
+  width: 200px;
 }
